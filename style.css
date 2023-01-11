@@ -1,0 +1,114 @@
+/* a garder 00007d */
+/* Header */
+.imgprofil {
+    width: 40%;
+    height: 100%;
+}
+
+.bordure_header {
+    border-radius: 2rem;
+    border: 0.2rem white solid;
+}
+
+/* Titre */
+.Soulignage_bas {
+    border-bottom: 0.2rem #dba447 solid;
+}
+
+.couleur_titre {
+    color: #dba447;
+    margin-bottom: 0px;
+}
+
+.barre_centrale {
+    border-right: 0.2rem black solid;
+}
+
+/* cercle pour les compétences */
+
+.cercle-complet {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 1rem;
+    background: #dba447;
+    display: inline-block;
+}
+
+.cercle-bordure {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 1rem;
+    border: 0.2rem #dba447 solid;
+    display: inline-block;
+}
+
+.collapse-bouton {
+    background-color: transparent;
+    border: 0px;
+    color: inherit;
+    transition: transform 0.35s ease;
+}
+
+/* Texte blanc */
+.white {
+    color: white;
+}
+
+/* Texte noir */
+.Black {
+    color: rgb(0, 0, 0);
+}
+
+/* fond général*/
+.fondgrisclair {
+    background-color: rgb(130, 130, 130, 1);
+}
+.fondcompetence {
+    background-color: rgb(200, 200, 200);
+}
+
+/* fond header */
+.fondnoir {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.rotation {
+    transform: rotate(180deg);
+}
+
+.pictogramme{
+    width: 10%;
+}
+
+
+
+
+/* .cercles {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.barre-compétence {
+    width: 100px;
+    height: 15px;
+    background: rgb(128, 128, 128);
+}
+.compétence-html {
+    width: 75px;
+    height: 15px;
+    background: #dba447;
+} */
+
+.barre-competence {
+    height: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.competence-manquante {
+    background: rgb(128, 128, 128);
+}
+.competence_1-100 {
+    background: #dba447;
+}
