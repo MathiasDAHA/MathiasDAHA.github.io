@@ -1,6 +1,6 @@
 /* a garder 00007d */
 /* Header */
-.imgprofil {
+.img_profil {
     width: 40%;
     height: 100%;
 }
@@ -34,14 +34,6 @@
     display: inline-block;
 }
 
-.cercle-bordure {
-    width: 1.3rem;
-    height: 1.3rem;
-    border-radius: 1rem;
-    border: 0.2rem #dba447 solid;
-    display: inline-block;
-}
-
 .collapse-bouton {
     background-color: transparent;
     border: 0px;
@@ -60,15 +52,12 @@
 }
 
 /* fond général*/
-.fondgrisclair {
-    background-color: rgb(130, 130, 130, 1);
-}
-.fondcompetence {
+.fond_competence {
     background-color: rgb(200, 200, 200);
 }
 
 /* fond header */
-.fondnoir {
+.fond_noir {
     background-color: rgb(0, 0, 0);
 }
 
@@ -77,7 +66,7 @@
     transform: rotate(180deg);
 }
 
-.pictogramme{
+.pictogramme {
     width: 10%;
 }
 
@@ -109,6 +98,7 @@
 .competence-manquante {
     background: rgb(128, 128, 128);
 }
+
 .competence_1-100 {
     background: #dba447;
 }
